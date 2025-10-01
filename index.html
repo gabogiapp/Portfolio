@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriele Lisci - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+</head>
+<body>
+    <!-- Header with Vanta.js Background -->
+    <header id="home">
+        <div class="header-content">
+            <h1>Gabriele Lisci</h1>
+            <p id="subtitle">Computer Science Student • Full‑Stack Developer</p>
+        </div>
+        
+        <!-- Navigation -->
+        <nav>
+            <a href="https://www.linkedin.com/in/gabrielelisci" target="_blank">
+                <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+            </a>
+            <a href="https://github.com/gabogiapp" target="_blank">
+                <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <img src="headshot.jpg" alt="Gabriele Lisci's headshot" class="headshot">
+                <div class="about-text">
+                    <p>I'm a Computer Science student at Rutgers University with a passion for building AI‑powered products and using data to solve real‑world problems.</p>
+                    <p>I work across the stack — Python/Flask, Java/Spring, and React — and I've trained and deployed ML models in production contexts.</p>
+                    <div class="button-about">
+                        <a href="#" class="button">View My Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Rutgers University–New Brunswick</h3>
+                        <h4>B.S. Computer Science</h4>
+                        <p><strong>Relevant Coursework:</strong> Data Structures, Discrete Structures, Computer Architecture, Software Methodology, Linear Algebra</p>
+                        <p><strong>Activities:</strong> Honors College, Computer Science Club</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Full-Stack Developer</h3>
+                        <h4>Personal Projects | 2023 – Present</h4>
+                        <ul>
+                            <li>Built and deployed 9+ full-stack applications using modern web technologies</li>
+                            <li>Developed iOS app serving 1,500+ high school students with real-time notifications</li>
+                            <li>Created ML-powered systems for medical imaging and recommendation engines</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Computer Science Student</h3>
+                        <h4>Rutgers University | 2022 – Present</h4>
+                        <ul>
+                            <li>Maintaining strong academic performance in core CS curriculum</li>
+                            <li>Active participant in coding competitions and hackathons</li>
+                            <li>Contributing to open-source projects and building portfolio applications</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            
+            <div class="project">
+                <h3>EduTracker - iOS App</h3>
+                <p>Full-stack iOS app using Swift delivering real-time grade notifications to 1,500+ high school students. Built with Flask backend, Firestore, Redis, and Firebase Cloud Messaging for 99.9% uptime supporting 500+ concurrent users.</p>
+                <div class="tech-tags">
+                    <span>Swift</span>
+                    <span>Flask</span>
+                    <span>Firestore</span>
+                    <span>Redis</span>
+                    <span>Firebase</span>
+                </div>
+                <a href="https://github.com/gabogiapp/Genesis-NotificationTracker-iOSapp" target="_blank" class="button">View on GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3>Rhythm Game</h3>
+                <p>Interactive rhythm-based game developed in C# with Unity, featuring dynamic music synchronization, scoring systems, and engaging gameplay mechanics.</p>
+                <div class="tech-tags">
+                    <span>C#</span>
+                    <span>Unity</span>
+                    <span>Game Development</span>
+                </div>
+                <a href="https://github.com/gabogiapp/Rhythm-Game" target="_blank" class="button">View on GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3>3D Maze Generator</h3>
+                <p>Unity-based 3D maze generator using Delaunay triangulation, Bowyer-Watson, Prim's MST, and A* search algorithms. Generates 100,000+ unique fully connected mazes with optimized pathfinding.</p>
+                <div class="tech-tags">
+                    <span>Unity</span>
+                    <span>C#</span>
+                    <span>Algorithms</span>
+                    <span>A* Search</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>Movie Recommender System</h3>
+                <p>ML-powered recommendation system generating 1,000+ personalized movie suggestions using TensorFlow, PyTorch, scikit-learn, and spaCy with cosine similarity for intelligent ranking.</p>
+                <div class="tech-tags">
+                    <span>Python</span>
+                    <span>TensorFlow</span>
+                    <span>PyTorch</span>
+                    <span>scikit-learn</span>
+                    <span>spaCy</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>Lung Cancer Detector</h3>
+                <p>CNN-based medical imaging system using TensorFlow and Keras for lung cancer detection. Processes CT scan images with OpenCV, achieving 95% sensitivity in early-stage tumor identification.</p>
+                <div class="tech-tags">
+                    <span>Python</span>
+                    <span>TensorFlow</span>
+                    <span>Keras</span>
+                    <span>OpenCV</span>
+                    <span>Medical AI</span>
+                </div>
+                <div class="award">🏆 95% Sensitivity Achievement</div>
+            </div>
+
+            <div class="project">
+                <h3>Relationship Timeline App</h3>
+                <p>Interactive web application for tracking and visualizing relationship milestones and memories, built with JavaScript and modern web technologies.</p>
+                <div class="tech-tags">
+                    <span>JavaScript</span>
+                    <span>HTML/CSS</span>
+                    <span>Web Development</span>
+                </div>
+                <a href="https://github.com/gabogiapp/Relationship-Timeline" target="_blank" class="button">View on GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3>Todo List Web App</h3>
+                <p>Feature-rich todo list application with task management, priority settings, and progress tracking built using JavaScript and responsive web design.</p>
+                <div class="tech-tags">
+                    <span>JavaScript</span>
+                    <span>HTML/CSS</span>
+                    <span>Local Storage</span>
+                </div>
+                <a href="https://github.com/gabogiapp/todo-list-app" target="_blank" class="button">View on GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3>Image to Text Converter</h3>
+                <p>Python-based OCR application that extracts and processes text from images using computer vision and machine learning techniques for accurate text recognition.</p>
+                <div class="tech-tags">
+                    <span>Python</span>
+                    <span>OCR</span>
+                    <span>Computer Vision</span>
+                    <span>Machine Learning</span>
+                </div>
+                <a href="https://github.com/gabogiapp/Image_To_Text" target="_blank" class="button">View on GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3>Hackathon 2025 Project</h3>
+                <p>Innovative solution developed during a hackathon event, showcasing rapid prototyping skills and creative problem-solving using JavaScript and modern development frameworks.</p>
+                <div class="tech-tags">
+                    <span>JavaScript</span>
+                    <span>Rapid Prototyping</span>
+                    <span>Hackathon</span>
+                </div>
+                <a href="https://github.com/gabogiapp/Hackathon2025" target="_blank" class="button">View on GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="contact-info">
+            <a href="mailto:gabriele.lisci@example.com">gabriele.lisci@example.com</a>
+        </div>
+        <p>© 2025 Gabriele Lisci</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
